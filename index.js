@@ -6,7 +6,7 @@ let store = {drivers: [], passengers: [], trips: []}
 class Driver {
   constructor(name) {
     this.name = name
-    this.id = ++ userId
+    this.id = ++ driverId
     store.drivers.push(this)
   }
   
