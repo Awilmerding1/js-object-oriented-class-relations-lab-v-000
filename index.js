@@ -15,6 +15,7 @@ class Driver {
     return trip.userId === this.id
     })
   }
+  }
 
 class Passenger {
   constructor(name) {
