@@ -4,7 +4,7 @@ class Driver {
   
   constructor(name) {
     this.name = name
-    this.id 
+    this.id = ++ userId
   }
   
   
