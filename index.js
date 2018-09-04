@@ -7,7 +7,7 @@ class Driver {
     this.name = name
     this.id = ++ userId
     
-    store.push(this)
+    store.drivers.push(this)
   }
   
   
