@@ -14,8 +14,8 @@ class Driver {
     return store.trips.filter(trip => {
     return trip.userId === this.id
     })
-  }
-  }
+    }
+}
 
 class Passenger {
   constructor(name) {
