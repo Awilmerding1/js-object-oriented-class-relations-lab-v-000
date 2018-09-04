@@ -11,9 +11,10 @@ class Driver {
   }
   
   trips() {
-    
+    return store.items.filter(item => {
+    return item.userId === this.id
+    }
   }
-}
 
 class Passenger {
   constructor(name) {
