@@ -50,5 +50,9 @@ class Trip {
     this.id = ++ tripId
     store.trips.push(this)
   }
+  
+  driver() {
+    
+  }
 }
 
