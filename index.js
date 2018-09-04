@@ -1,4 +1,5 @@
 let userId = 0
+let store = {drivers: [], passengers: [], trips: []}
 
 class Driver {
   
