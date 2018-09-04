@@ -1,4 +1,5 @@
-let userID
+let userId = 0
+
 class Driver {
   
   constructor(name) {
