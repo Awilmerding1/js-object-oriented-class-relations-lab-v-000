@@ -17,8 +17,8 @@ class Driver {
   }
   
    passengers() {
-    return store.passengers.filter(trip => {
-    return trip.userId === this.id
+    return store.passengers.filter(passenger => {
+    return passenger.userId === this.id
     })
   }
 }
